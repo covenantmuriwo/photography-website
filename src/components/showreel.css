@@ -1,0 +1,32 @@
+.showreel-column-up {
+  animation: moveUp 28s linear infinite;
+}
+
+.showreel-column-down {
+  animation: moveDown 28s linear infinite;
+}
+
+.showreel-column-up:hover,
+.showreel-column-down:hover {
+  animation-play-state: paused;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-50%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

@@ -24,20 +24,20 @@ export default function App() {
   const [showreelCurrentMedia, setShowreelCurrentMedia] = useState(0);
 
   const heroImages = [
-  {
-    src: "/hero/hero-1.jpg",
-    position: "center",
-  },
-  {
-    src: "/hero/hero-2.jpg",
-    position: "center"
-  },
-  {
-    src: "/hero/hero-3.jpg",
-    position: "center",
-  },
+    {
+      src: "/hero/hero-1.jpg",
+      position: "center",
+    },
+    {
+      src: "/hero/hero-2.jpg",
+      position: "center"
+    },
+    {
+      src: "/hero/hero-3.jpg",
+      position: "center",
+    },
 
-];
+  ];
 
   // Robust auto-slider
   useEffect(() => {
@@ -103,79 +103,127 @@ export default function App() {
   };
 
   const galleryImages = [
-    { src: "/images/photo-1.webp", isNew: true },
-    { src: "/images/photo-2.jpeg", isNew: true },
-    { src: "/images/photo-3.jpg", isNew: false },
-    { src: "/images/photo-5.jpg", isNew: true },
-    { src: "/images/photo-6.jpg", isNew: false },
-    { src: "/images/photo-7.jpg", isNew: false },
-    { src: "/images/photo-8.jpg", isNew: true },
-    { src: "/images/photo-9.webp", isNew: false },
-    { src: "/images/photo-10.webp", isNew: false },
-    { src: "/images/photo-11.jpg", isNew: true },
-    { src: "/images/photo-12.webp", isNew: false },
-    { src: "/images/photo-13.webp", isNew: false },
-  ];
-const showreels = [
-  {
-    title: "Graduation Film",
-    category: "Graduation",
-    duration: "2:34",
-    thumbnail: "/showreel/graduation.webp",
-    description: "...",
-    video: "/showreel/graduation.mp4",
-    height: "h-[300px]",
-  },
-
-  {
-    title: "The Night Comes Alive",
-    category: "Event Film",
-    duration: "01:10",
-    thumbnail: "/showreel/dj-event.jpg",
-    description: "...",
-    video: "/showreel/dj-event.mp4",
-    height: "h-[300px]",
-  },
-
-  {
-    title: "Create & Inspire",
-    category: "Creative Content",
-    duration: "00:11",
-    thumbnail: "/showreel/content.jpg",
-    description: "...",
-    video: "/showreel/content.mp4",
-    height: "h-[300px]",
-  },
-];
-
-const moreFilms = [
-  {
-     title: "Rhythm & Motion",
-     category: "Music Video",
-    thumbnail: "/showreel/music-video.jpg",
-    video: "/showreel/music-video.mp4",
-  },
-
-   {
-    title: "Campus Celebration",
-    category: "Graduation",
-    thumbnail: "/showreel/graduation2.webp",
-    video: "/showreel/graduation2.mp4",
-  },
     {
-    title: "Campus Celebration",
-    category: "Graduation",
-    thumbnail: "/showreel/graduation4.webp",
-    video: "/showreel/graduation4.mp4",
-  },
-
+      src: "/images/photo-1.webp",
+      alt: "Professional portrait photography session in Mohali, Punjab.",
+      isNew: true,
+    },
+   {
+  src: "/images/photo-2.jpeg",
+  alt: "Graduation photography session at Quest Group of Institutions, Mohali.",
+  isNew: true,
+},
+    {
+      src: "/images/photo-3.jpg",
+      alt: "Professional portrait photography with cinematic styling.",
+      isNew: true,
+    },
+    {
+      src: "/images/photo-5.jpg", 
+      alt: "Elegant portrait photography session by Pulitzer Priest Photography.",
+      isNew: true,
+    },
+    {
+      src: "/images/photo-6.jpg",
+      alt: "Beautiful maternity photography session celebrating motherhood.",
+      isNew: true,
+    },
+    {
+      src: "/images/photo-7.jpg", 
+      alt: "Timeless wedding photography capturing love and emotion.",
+      isNew: true,
+    },
+    {
+      src: "/images/photo-8.jpg", 
+      alt: "Outdoor portrait photography capturing natural expressions in Mohali.",
+      isNew: true,
+    },
+   {
+  src: "/images/photo-9.webp",
+  alt: "Professional graduation portrait celebrating academic achievement.",
+  isNew: false,
+},
+    {
+      src: "/images/photo-10.webp", 
+      alt: "Cinematic graduation photography by Pulitzer Priest Photography.",
+      isNew: true,
+    },
+    {
+      src: "/images/photo-11.jpg",
+      alt: "Birthday photography session capturing joyful celebrations in Mohali.",
+      isNew: true,
+    },
  {
-    title: "Campus Celebration",
-    category: "Graduation",
-    thumbnail: "/showreel/graduation3.webp",
-    video: "/showreel/graduation3.mp4",
-  },
-];
+  src: "/images/photo-12.webp",
+  alt: "Graduation photography capturing memorable moments in Punjab.",
+  isNew: false,
+},
+{
+  src: "/images/photo-13.webp",
+  alt: "Students celebrating graduation with Pulitzer Priest Photography.",
+  isNew: false,
+},
+  ];
+  const showreels = [
+    {
+      title: "Graduation Film",
+      category: "Graduation",
+      duration: "2:34",
+      thumbnail: "/showreel/graduation.webp",
+      description: "...",
+      video: "/showreel/graduation.mp4",
+      height: "h-[300px]",
+    },
+
+    {
+      title: "The Night Comes Alive",
+      category: "Event Film",
+      duration: "01:10",
+      thumbnail: "/showreel/dj-event.jpg",
+      description: "...",
+      video: "/showreel/dj-event.mp4",
+      height: "h-[300px]",
+    },
+
+    {
+      title: "Create & Inspire",
+      category: "Creative Content",
+      duration: "00:11",
+      thumbnail: "/showreel/content.jpg",
+      description: "...",
+      video: "/showreel/content.mp4",
+      height: "h-[300px]",
+    },
+  ];
+
+  const moreFilms = [
+    {
+      title: "Rhythm & Motion",
+      category: "Music Video",
+      thumbnail: "/showreel/music-video.jpg",
+      video: "/showreel/music-video.mp4",
+    },
+
+    {
+      title: "Campus Celebration",
+      category: "Graduation",
+      thumbnail: "/showreel/graduation2.webp",
+      video: "/showreel/graduation2.mp4",
+    },
+    {
+      title: "Campus Celebration",
+      category: "Graduation",
+      thumbnail: "/showreel/graduation4.webp",
+      video: "/showreel/graduation4.mp4",
+    },
+
+    {
+      title: "Campus Celebration",
+      category: "Graduation",
+      thumbnail: "/showreel/graduation3.webp",
+      video: "/showreel/graduation3.mp4",
+    },
+  ];
 
   return (
     <>
@@ -186,9 +234,9 @@ const moreFilms = [
         setIsMenuOpen={setIsMenuOpen}
       />
 
-      <Hero 
-        heroImages={heroImages} 
-        currentHero={currentHero} 
+      <Hero
+        heroImages={heroImages}
+        currentHero={currentHero}
       />
 
       <Services />
@@ -205,7 +253,7 @@ const moreFilms = [
 
       <Showreel
         showreels={showreels}
-         moreFilms={moreFilms}
+        moreFilms={moreFilms}
         setShowreelMedia={setShowreelMedia}
         setShowreelCurrentMedia={setShowreelCurrentMedia}
         setShowreelLightboxOpen={setShowreelLightboxOpen}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://https://pulitzepriest-photography-website.netlify.app/sitemap.xml

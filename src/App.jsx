@@ -108,18 +108,18 @@ export default function App() {
       alt: "Professional portrait photography session in Mohali, Punjab.",
       isNew: true,
     },
-   {
-  src: "/images/photo-2.jpeg",
-  alt: "Graduation photography session at Quest Group of Institutions, Mohali.",
-  isNew: true,
-},
+    {
+      src: "/images/photo-2.jpeg",
+      alt: "Graduation photography session at Quest Group of Institutions, Mohali.",
+      isNew: true,
+    },
     {
       src: "/images/photo-3.jpg",
       alt: "Professional portrait photography with cinematic styling.",
       isNew: true,
     },
     {
-      src: "/images/photo-5.jpg", 
+      src: "/images/photo-5.jpg",
       alt: "Elegant portrait photography session by Pulitzer Priest Photography.",
       isNew: true,
     },
@@ -129,22 +129,22 @@ export default function App() {
       isNew: true,
     },
     {
-      src: "/images/photo-7.jpg", 
+      src: "/images/photo-7.jpg",
       alt: "Timeless wedding photography capturing love and emotion.",
       isNew: true,
     },
     {
-      src: "/images/photo-8.jpg", 
+      src: "/images/photo-8.jpg",
       alt: "Outdoor portrait photography capturing natural expressions in Mohali.",
       isNew: true,
     },
-   {
-  src: "/images/photo-9.webp",
-  alt: "Professional graduation portrait celebrating academic achievement.",
-  isNew: false,
-},
     {
-      src: "/images/photo-10.webp", 
+      src: "/images/photo-9.webp",
+      alt: "Professional graduation portrait celebrating academic achievement.",
+      isNew: false,
+    },
+    {
+      src: "/images/photo-10.webp",
       alt: "Cinematic graduation photography by Pulitzer Priest Photography.",
       isNew: true,
     },
@@ -153,16 +153,16 @@ export default function App() {
       alt: "Birthday photography session capturing joyful celebrations in Mohali.",
       isNew: true,
     },
- {
-  src: "/images/photo-12.webp",
-  alt: "Graduation photography capturing memorable moments in Punjab.",
-  isNew: false,
-},
-{
-  src: "/images/photo-13.webp",
-  alt: "Students celebrating graduation with Pulitzer Priest Photography.",
-  isNew: false,
-},
+    {
+      src: "/images/photo-12.webp",
+      alt: "Graduation photography capturing memorable moments in Punjab.",
+      isNew: false,
+    },
+    {
+      src: "/images/photo-13.webp",
+      alt: "Students celebrating graduation with Pulitzer Priest Photography.",
+      isNew: false,
+    },
   ];
   const showreels = [
     {

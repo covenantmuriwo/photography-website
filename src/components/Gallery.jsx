@@ -8,7 +8,7 @@ export default function Gallery({
   const displayedImages = galleryImages;
     return (
     <>
-    <section id="gallery" className="py-16 px-6 bg-white">
+    <section id="gallery" className="py-16 px-6 scroll-mt-4 md:scroll-mt-0">
 <p className="uppercase tracking-[0.3em] text-sm text-[#8B5E3C] mb-3 text-center">
   CURATED GALLERY
 </p>

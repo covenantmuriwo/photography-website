@@ -29,7 +29,7 @@ export default function Contact({
 ];
     return (
     <>
-<section id="contact" className="py-16 px-6 bg-gray-50">
+<section id="contact" className="py-16 px-6 scroll-mt-4 md:scroll-mt-0">
 
   <div className="max-w-7xl mx-auto">
     <div className="flex flex-col lg:flex-row gap-16">

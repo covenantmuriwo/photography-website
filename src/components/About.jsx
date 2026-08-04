@@ -22,7 +22,7 @@
 ];
 
     return (
- <section id="about" className="py-16 px-6 bg-gray-50">
+ <section id="about" className="py-16 px-6 scroll-mt-4 md:scroll-mt-0">
    <p className="uppercase tracking-[0.3em] text-sm text-[#8B5E3C] mb-3 text-center">
  Behind the Lens
     </p>

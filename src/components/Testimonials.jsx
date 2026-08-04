@@ -19,7 +19,7 @@ export default function Testimonials({ testimonials }) {
         return () => resizeObserver.disconnect();
     }, []);
     return (
-        <section id="testimonials" className="py-16 bg-[#FAF8F5]">
+        <section id="testimonials" className="py-16 px-6 scroll-mt-4 md:scroll-mt-0">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Heading */}

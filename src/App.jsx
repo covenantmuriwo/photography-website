@@ -8,6 +8,7 @@ import About from "./components/About";
 import Showreel from "./components/Showreel";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -51,7 +52,7 @@ export default function App() {
   // Scroll-based active section
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "services", "gallery", "about", "showreel", "contact"];
+      const sections = ["home", "services", "gallery", "about", "showreel", "testimonials", "contact"];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -224,22 +225,53 @@ export default function App() {
       video: "/showreel/graduation3.mp4",
     },
   ];
+  const testimonials = [
+  {
+    name: "Sarah M.",
+    service: "Graduation Session",
+    rating: 5,
+    review:
+      "Absolutely incredible! Every special moment was captured beautifully and professionally.",
+  },
+  {
+    name: "Brian T.",
+    service: "Birthday Celebration",
+    rating: 5,
+    review:
+      "The photos exceeded our expectations. Friendly, creative and very reliable.",
+  },
+  {
+    name: "Anita K.",
+    service: "Content Creation",
+    rating: 5,
+    review:
+      "Amazing attention to detail. The final videos looked cinematic and polished.",
+  },
+  {
+    name: "Kelvin P.",
+    service: "Wedding Film",
+    rating: 5,
+    review:
+      "We couldn't have asked for a better team. Every emotion was captured perfectly.",
+  },
+];
 
   return (
     <>
+     
       {/* Navigation */}
-      <Navbar
+       <Navbar
         activeSection={activeSection}
         isMenuOpen={isMenuOpen}
         setIsMenuOpen={setIsMenuOpen}
       />
 
-      <Hero
+     <Hero
         heroImages={heroImages}
         currentHero={currentHero}
       />
 
-      <Services />
+       <Services />
 
       <Gallery
         galleryImages={galleryImages}
@@ -248,6 +280,7 @@ export default function App() {
         setCurrentImage={setCurrentImage}
         setLightboxOpen={setLightboxOpen}
       />
+      
 
       <About />
 
@@ -257,6 +290,10 @@ export default function App() {
         setShowreelMedia={setShowreelMedia}
         setShowreelCurrentMedia={setShowreelCurrentMedia}
         setShowreelLightboxOpen={setShowreelLightboxOpen}
+      />
+
+      <Testimonials
+        testimonials={testimonials}
       />
 
       <Contact

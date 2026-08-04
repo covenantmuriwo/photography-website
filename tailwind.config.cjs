@@ -13,10 +13,11 @@ module.exports = {
   ],
   theme: {
   extend: {
-    fontFamily: {
-      script: ["Allura", "cursive"],
-    },
+  fontFamily: {
+    script: ["Allura", "cursive"],
+    heading: ["Cormorant Garamond", "serif"],
   },
+},
 },
   plugins: [],
 }
